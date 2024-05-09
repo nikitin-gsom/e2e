@@ -3,9 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/admin")
+@app.route("/user")
 def hello_admin():
-    return "Hello Admin"
+    return "Hello User"
 
 
 if __name__ == "__main__":
